@@ -10,8 +10,51 @@ Grandes Tela: Acima de 1200px
 */
 
 
-@media screen and (min-width: 768px) and (max-width: 992px){
-    section#login{
-        width: 70%;
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body{
+        background-image: linear-gradient(#5f2c82, #3bacac);
     }
+
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background: url(../imagens/login\ pq.jpg) no-repeat center center;
+        background-size: cover; 
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    } 
+}
+
+@media screen and (min-width: 992px){
+
+    body{
+        background-image: linear-gradient(#5f2c82, #3bacac);
+    }
+
+    section#login{
+        width: 80vw;
+    }
+   
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center bottom;
+    }
+
+    section#login > div#formulario{
+        float: left;
+        width: 50%;
+        
+    }
+
 }
